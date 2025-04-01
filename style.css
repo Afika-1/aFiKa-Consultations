@@ -6,12 +6,13 @@ body{
     background-size: cover; 
 }
 section{
-    background-color: rgba(0, 0, 0, 0.6);
-    height: 100vh;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
+    /* align-items: center; */
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100vh;
+    justify-content: space-between;
+ 
 }
 .logo{
     display: flex;
@@ -24,9 +25,15 @@ section{
     margin: 5px;
 }
 .afika{
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 30px;
     color: rgb(255, 166, 0);
+    border-top: 1px red solid;
+
+}
+.afika span{
+font-weight: bold;
+color: rgb(202, 37, 37) ;
 
 }
 .navbar-brand{
@@ -67,60 +74,34 @@ text-align: center;
     width: 100%;
 
 }
-/* .links{
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-     */
-/* } */
 
-form{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 450px ;
-    /* margin-top: 10%; */
-    padding: 20px;
-    background-color: rgb(235, 236, 232,.3);
-    border-radius: 20px;
-    color: rgb(0, 0, 0);
-} 
-form input{
-    padding: 5px;
-    width: 400px;
-}
-label{
-    font-size: 20px;
-}
-button{
-    width: 100px;
-    padding: 5px;
-    margin-top: 10px;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.2);
+h3 ,h1{
+    text-align: center;
     color: white;
+    /* text-shadow: 3px 1px 9px rgba(0, 0, 0, 1) */
 }
-button:hover{
-    cursor: pointer;
-    border-color: white;
-    border: 5;
-
-
-}
-section>p>a{
+#login{
+    text-decoration:underline;
     color: rgb(255, 166, 0);
-    text-shadow: 0 0;
 }
-section>p{
-    text-shadow: 3px 1px 9px rgba(255, 255, 255, 255)
+h1{
+    font-size: 50px;
 }
-footer{position: absolute;
-    bottom: 0px;
+.texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+footer{
+    /* position: absolute; */
+    /* bottom: 0px; */
 color: white;
 background-color: rgb(235, 236, 232,.1);
 width: 100%;
 text-align: center;}
 
 a{cursor: pointer;}
+.nav-link:active{
+    color: rgb(255, 166, 0);
+}
