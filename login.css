@@ -46,6 +46,9 @@ color: rgb(202, 37, 37) ;
 text-shadow: 5px 1px 1px rgba(0, 0, 0, 0.9)
 
 }
+.afika span >span{
+    color:  rgb(8, 121, 55); ;
+}
 .navbar-brand{
     font-style: italic;
     font-family:cursive;
@@ -72,14 +75,15 @@ text-align: center;
 }
 
 .navbar-nav a:hover{
-    border-bottom: 3px rgb(255, 166, 0) solid;
+    border-bottom: 3px rgb(8, 121, 55) solid;
 }
 .navbar{
-    background-color: rgba(14, 31, 31, 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
     /* display: flex; */
     /* align-items: center;
     justify-content: space-between;
     flex-wrap: wrap; */
+    /* border-bottom: 0.1px rgb(14, 31, 31) solid; */
     padding: 0;
     color: white;
     width: 100%;
