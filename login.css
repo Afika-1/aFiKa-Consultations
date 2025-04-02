@@ -1,16 +1,25 @@
+
 body{
     padding: 0;
     margin: 0;
-    background-image: url('/pexels-photo.webp');
+    height: 100vh;
+    background-image: url('/pexels-photo-7658373.jpeg');
+    
     background-repeat: no-repeat;
     background-size: cover; 
 }
 section{
-    background-color: rgba(0, 0, 0, 0.6);
-    height: 100vh;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 100vh;
+    /* justify-content: space-between; */
+ 
+}
+.form-content{
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 .logo{
@@ -24,15 +33,24 @@ section{
     margin: 5px;
 }
 .afika{
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 30px;
     color: rgb(255, 166, 0);
+    border-top: 1px red solid;
+    /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9) */
+
+}
+.afika span{
+font-weight: bold;
+color: rgb(202, 37, 37) ;
+text-shadow: 5px 1px 1px rgba(0, 0, 0, 0.9)
 
 }
 .navbar-brand{
     font-style: italic;
     font-family:cursive;
     color: rgb(255, 166, 0);
+    text-shadow: 10px 10px 3px rgba(0, 0, 0, 0.9);
 }
 .container-fluid{
     display: flex;
@@ -59,11 +77,61 @@ text-align: center;
 .navbar{
     background-color: rgba(14, 31, 31, 0.8);
     /* display: flex; */
-    align-items: center;
+    /* align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
     padding: 0;
     color: white;
     width: 100%;
 
 }
+#login{
+    text-decoration:underline;
+    color: rgb(255, 166, 0);
+    margin-left: 5vw;
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    /* margin-top: 10%; */
+    padding: 20px;
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 20px;
+    color: white;
+  }
+  form input {
+    padding: 5px;
+    width: 25vw;
+    
+    border-radius: 5px;
+  }
+  label {
+    font-size: 20px;
+  }
+  button {
+    width: 100px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+  }
+  button:hover {
+    cursor: pointer;
+    border-color: white;
+    border: 5;
+  }
+  section >div> p > a {
+    color: rgb(255, 166, 0);
+    text-shadow: 0 0;
+    text-decoration: underline;
+  }
+  section >div> p {
+    /* text-shadow: 1px 1px 9px rgba(255, 255, 255, 0.5); */
+    color: white;
+  }
