@@ -91,7 +91,6 @@ form {
   align-items: center;
   flex-direction: column;
   width: 450px;
-  /* margin-top: 10%; */
   padding: 20px;
   background-color: rgb(255, 255, 255, 0.1);
   border-radius: 20px;
@@ -100,7 +99,7 @@ form {
 }
 form input {
   padding: 5px;
-  width: 25vw;
+  width: 400px;
   
   border-radius: 5px;
 }
@@ -141,8 +140,14 @@ footer {
 a {
   cursor: pointer;
 }
-@media (min-width:410px) { 
+@media (max-width:910px) { 
     form{
-      color: red;
+      width: 85vw;
+    }
+    form input{
+      width: 80vw;
+    }
+    button{
+      width: 10rem;
     }
 }
