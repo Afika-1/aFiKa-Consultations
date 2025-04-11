@@ -142,5 +142,7 @@ a {
   cursor: pointer;
 }
 @media (min-width:410px) { 
-    
+    form{
+      color: red;
+    }
 }
