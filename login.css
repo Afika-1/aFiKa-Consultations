@@ -67,6 +67,7 @@ text-shadow: 5px 1px 1px rgba(0, 0, 0, 0.9)
     text-decoration: none;
     
 }
+.navbar-nav{display: flex;}
 .navbar-nav a{
 color: white;
 padding: 10px;
@@ -79,7 +80,7 @@ text-align: center;
 }
 .navbar{
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 0;
+    padding: 1rem;
     color: white;
     width: 100%;
 
@@ -184,5 +185,10 @@ text-align: center;
   .container-fluid{
     flex-direction: column;
   }
-
+  .container-fluid .collapse{
+    width: 100vw;
+}
+.navbar-nav{
+    justify-content: space-between;
+}
 }

@@ -10,9 +10,9 @@ section {
   height: 110vh;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
+
 .logo{
     display: flex;
     flex-direction: column;
@@ -81,11 +81,12 @@ text-align: center;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 0;
+    padding: 1rem;
     color: white;
     /* width: 100%; */
 
 }
+
 #login{
     text-decoration:underline;
     color: rgb(255, 166, 0);
@@ -153,6 +154,7 @@ footer {
 
 a {
   cursor: pointer;
+ 
 }
 @media (max-width:910px) { 
     form{
@@ -170,5 +172,11 @@ a {
   .container-fluid{
     flex-direction: column;
   }
+  .container-fluid .collapse{
+    width: 100vw;
+}
+.navbar-nav{
+    justify-content: space-between;
+}
 
 }
