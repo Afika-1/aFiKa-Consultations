@@ -1,11 +1,16 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body{
-    padding: 0;
-    margin: 0;
+ 
     height: 100vh;
+    width: 100vw;
     background-image: url('/pexels-photo-7793692.jpeg');
-    background-color: black;
     background-repeat: no-repeat;
     background-size: cover; 
+    background-color: black;
 }
 section{
     display: flex;
@@ -14,78 +19,10 @@ section{
     align-items: center;
     background-color: rgba(0, 0, 0, 0.8);
     height: 100vh;
-    justify-content: space-between;
+    width: 100vw;
  
 }
-/* .logo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 2px;
-    border-right: .1px rgb(71, 63, 47) solid;
-    border-left: .1px rgb(71, 63, 47) solid;
-    padding: 10px;
-    margin: 5px;
-}
-.afika{
-    font-size: 30px;
-    color: rgb(255, 166, 0);
-    border-top: 1px red solid;
 
-}
-.afika span{
-font-weight: bold;
-color: rgb(202, 37, 37) ;
-text-shadow: 5px 1px 1px rgba(0, 0, 0, 0.9)
-
-}
-.afika span >span{
-    color:  rgb(8, 121, 55); ;
-}
-.navbar-brand{
-    font-style: italic;
-    font-family:cursive;
-    color: rgb(255, 166, 0);
-    text-shadow: 10px 10px 3px rgba(0, 0, 0, 0.9);
-}
-.container-fluid{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
-
-}
-.container-fluid a{
-    text-decoration: none;
-    
-}
-.navbar-nav a{
-color: white;
-padding: 10px;
-width: 100px;
-text-align: center;
-}
-
-.navbar-nav a:hover{
-    border-bottom: 3px rgb(8, 121, 55)  solid;
-}
-.navbar{
-    background-color: rgba(0, 0, 0, 0.1);
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 0;
-    color: white;
-    width: 100%;
-
-}
-#login{
-    text-decoration:underline;
-    color: rgb(255, 166, 0);
-    margin-left: 5vw;
-} */
-/* } */
 .logo{
     display: flex;
     flex-direction: column;
@@ -97,11 +34,10 @@ text-align: center;
     margin: 5px;
 }
 .afika{
-    /* font-weight: bold; */
+    font-weight: bold;
     font-size: 30px;
     color: rgb(255, 166, 0);
     border-top: 1px red solid;
-    /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9) */
 
 }
 .afika span{
@@ -111,7 +47,7 @@ text-shadow: 5px 1px 1px rgba(0, 0, 0, 0.9)
 
 }
 .afika span >span{
-    color:  rgb(8, 121, 55); ;
+    color: rgb(53, 131, 85); ;
 }
 .navbar-brand{
     font-style: italic;
@@ -127,19 +63,16 @@ text-shadow: 5px 1px 1px rgba(0, 0, 0, 0.9)
     padding-right: 10px;
 
 }
-.container-fluid a{
-    text-decoration: none;
-    
-}
 .navbar-nav a{
 color: white;
 padding: 10px;
 width: 100px;
 text-align: center;
+
 }
 
 .navbar-nav a:hover{
-    border-bottom: 3px rgb(8, 121, 55) solid;
+    border-bottom: 3px rgb(53, 131, 85) solid;
 }
 .navbar-nav{
     display: flex;
@@ -158,177 +91,10 @@ text-align: center;
 }
 
 
-/* .navbar {
-    background-color: rgba(0, 0, 0, 0.1);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 0.5rem 1rem;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 1000;
-  }
-  
-  .container-fluid {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    width: 100%;
-  }
-  
-  .logo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 2px;
-    border-right: 0.1px rgb(71, 63, 47) solid;
-    border-left: 0.1px rgb(71, 63, 47) solid;
-    padding: 0.75rem;
-    margin: 0.5rem;
-  }
-  
-  .afika {
-    font-size: 1.875rem;
-    color: rgb(255, 166, 0);
-    border-top: 1px red solid;
-    margin-bottom: 0.5rem;
-  }
-  
-  .afika span {
-    font-weight: bold;
-    color: rgb(202, 37, 37);
-    text-shadow: 5px 1px 1px rgba(0, 0, 0, 0.9);
-  }
-  
-  .afika span > span {
-    color: rgb(8, 121, 55);
-  }
-  
-  .navbar-brand {
-    font-style: italic;
-    font-family: cursive;
-    color: rgb(255, 166, 0);
-    text-shadow: 10px 10px 3px rgba(0, 0, 0, 0.9);
-    margin-top: 0.5rem;
-  }
-  
-  .navbar-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
-  }
-  
-  .navbar-nav a {
-    color: white;
-    padding: 0.75rem 1rem;
-    text-align: center;
-    transition: border-bottom 0.3s ease;
-  }
-  
-  .navbar-nav a:hover {
-    border-bottom: 3px rgb(8, 121, 55) solid;
-  }
-  
-  #login {
-    text-decoration: underline;
-    color: rgb(255, 166, 0);
-    margin-left: 2.5rem;
-  } */
-  
-  /* Responsive Breakpoints */
-  /* @media (max-width: 1200px) {
-    .navbar-nav {
-      gap: 1.5rem;
-    }
-    
-    #login {
-      margin-left: 1.5rem;
-    }
-  }
-  
-  @media (max-width: 992px) {
-    .navbar-nav {
-      gap: 1rem;
-    }
-    
-    .navbar-nav a {
-      padding: 0.5rem 0.75rem;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .navbar {
-      padding: 0.25rem 1rem;
-    }
-    
-    .logo {
-      padding: 0.5rem;
-    }
-    
-    .afika {
-      font-size: 1.5rem;
-    }
-    
-    .navbar-brand {
-      font-size: 0.9rem;
-    }
-    
-    .navbar-nav a {
-      padding: 0.5rem;
-      font-size: 0.9rem;
-    }
-    
-    #login {
-      margin-left: 1rem;
-    }
-  }
-  
-  @media (max-width: 576px) {
-    .navbar {
-      flex-direction: column;
-      padding: 0.5rem;
-    }
-    
-    .container-fluid {
-      flex-direction: column;
-      align-items: stretch;
-    }
-    
-    .logo {
-      width: 100%;
-      border-bottom: 0.1px rgb(71, 63, 47) solid;
-      border-right: none;
-      border-left: none;
-    }
-    
-    .navbar-nav {
-      width: 100%;
-      justify-content: center;
-      margin-top: 1rem;
-    }
-    
-    .navbar-nav a {
-      width: auto;
-      padding: 0.5rem 1rem;
-    }
-    
-    #login {
-      margin-left: 0;
-      margin-top: 1rem;
-    }
-  } */
-
-
-
 h3 ,h1{
     text-align: center;
     color: white;
-    text-shadow: 3px 5px 9px rgba(0, 0, 0, .9)
+    text-shadow: 8px 5px 2px rgba(0, 0, 0, .9)
 }
 
 h1{
@@ -337,10 +103,9 @@ h1{
 .texts{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin-top:10%;
-}
+padding: 0 2rem  0 2rem;}
 footer{
 color: white;
 background-color: rgba(16, 17, 13, 0.5);
@@ -352,18 +117,7 @@ a{cursor: pointer;
 .nav-link:active{
     color: rgb(255, 166, 0);
 }
-/* @media (max-width:910px) { 
-    form{
-      width: 85vw;
-    }
-    form input{
-      width: 80vw;
-    }
-    button{
-      width: 10rem;
-    }
-    
-} */
+
 @media (max-width:500px) {
   .container-fluid{
     flex-direction: column;
