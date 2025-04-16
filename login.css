@@ -178,4 +178,7 @@ text-align: center;
 .navbar-nav{
     justify-content: space-between;
 }
+.logo{
+  background-color: rgba(0, 0, 0, 0.9);
+}
 }
