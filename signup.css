@@ -140,7 +140,7 @@ section div > p > a {
   text-decoration: underline;
 }
 section div > p {
-  text-shadow: 1px 1px 9px rgba(255, 255, 255, 0.5);
+  /* text-shadow: 1px 1px 9px rgba(255, 255, 255, 0.5); */
   color: white;
 }
 footer {
