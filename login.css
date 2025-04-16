@@ -1,183 +1,177 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-body{
-
-    height: 100vh;
-    background-image: url('/pexels-photo-7658373.jpeg');
-    background-color: rgba(0, 0, 0, 0.8);
-    background-blend-mode: overlay;
-    background-repeat: no-repeat;
-    background-size: cover; 
+body {
+  height: 100vh;
+  background-image: url("/pexels-photo-7658373.jpeg");
+  background-color: rgba(0, 0, 0, 0.8);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
- 
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
 }
-.form-content{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    align-items: center;
+.form-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
 }
-.logo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 2px;
-    border-right: .1px rgb(71, 63, 47) solid;
-    border-left: .1px rgb(71, 63, 47) solid;
-    padding: 10px;
-    margin: 5px;
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2px;
+  border-right: 0.1px rgb(71, 63, 47) solid;
+  border-left: 0.1px rgb(71, 63, 47) solid;
+  padding: 10px;
+  margin: 5px;
 }
-.afika{
-    font-size: 30px;
-    color: rgb(255, 166, 0);
-    border-top: 1px red solid;
-
+.afika {
+  font-size: 30px;
+  color: rgb(255, 166, 0);
+  border-top: 1px red solid;
 }
-.afika span{
-font-weight: bold;
-color: rgb(202, 37, 37) ;
-text-shadow: 5px 1px 1px rgba(0, 0, 0, 0.9)
-
+.afika span {
+  font-weight: bold;
+  color: rgb(202, 37, 37);
+  text-shadow: 5px 1px 1px rgba(0, 0, 0, 0.9);
 }
-.afika span >span{
-    color: rgb(53, 131, 85); ;
+.afika span > span {
+  color: rgb(53, 131, 85);
 }
-.navbar-brand{
-    font-style: italic;
-    font-family:cursive;
-    color: rgb(255, 166, 0);
-    text-shadow: 10px 10px 3px rgba(0, 0, 0, 0.9);
+.navbar-brand {
+  font-style: italic;
+  font-family: cursive;
+  color: rgb(255, 166, 0);
+  text-shadow: 10px 10px 3px rgba(0, 0, 0, 0.9);
 }
-.container-fluid{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
-
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-.container-fluid a{
-    text-decoration: none;
-    
+.container-fluid a {
+  text-decoration: none;
 }
-.navbar-nav{display: flex;}
-.navbar-nav a{
-color: white;
-padding: 10px;
-width: 100px;
-text-align: center;
+.navbar-nav {
+  display: flex;
+}
+.navbar-nav a {
+  color: white;
+  padding: 10px;
+  width: 100px;
+  text-align: center;
 }
 
-.navbar-nav a:hover{
-    border-bottom: 3px rgb(53, 131, 85) solid;
+.navbar-nav a:hover {
+  border-bottom: 3px rgb(53, 131, 85) solid;
 }
-.navbar{
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 1rem;
-    color: white;
-    width: 100%;
-
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  color: white;
+  width: 100%;
 }
-#login{
-    text-decoration:underline;
-    color: rgb(255, 166, 0);
-    margin-left: 5vw;
+#login {
+  text-decoration: underline;
+  color: rgb(255, 166, 0);
+  margin-left: 5vw;
 }
 
+h2 {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 1rem;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 450px;
+  padding: 20px;
+  backdrop-filter: blur(8px);
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  color: white;
+  box-shadow: 2px 2px 3px 4px rgb(53, 131, 85);
+}
+form input {
+  padding: 5px;
+  width: 400px;
+  margin-bottom: 0.2rem;
+  border-radius: 5px;
+}
+label {
+  font-size: 20px;
+}
+button {
+  width: 100px;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+}
+button:hover {
+  cursor: pointer;
+  border-color: white;
+  border: 5;
+}
+section > div > p > a {
+  color: rgb(255, 166, 0);
+  text-shadow: 0 0;
+  text-decoration: underline;
+}
+section > div > p {
+  color: white;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  color: white;
+  background-color: rgb(235, 236, 232, 0.1);
+  width: 100%;
+  text-align: center;
+}
+a {
+  cursor: pointer;
+}
 
-  h2{
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-            color: white;
-            font-size: 40px;
-            text-align: center;
-            margin-top: 10%;
-            margin-bottom: 1rem;
-  }
+@media (max-width: 910px) {
   form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 450px;
-    padding: 20px;
-    backdrop-filter: blur(8px);    
-    background-color: rgba(0, 0, 0, 0.4);
-    border-radius: 20px;
-    color: white;
-    box-shadow: 2px 2px 3px 4px rgb(53, 131, 85);
+    width: 85vw;
   }
   form input {
-    padding: 5px;
-    width: 400px;
-    margin-bottom: 0.2rem;
-    border-radius: 5px;
-  }
-  label {
-    font-size: 20px;
-   
+    width: 80vw;
   }
   button {
-    width: 100px;
-    padding: 5px;
-    margin-top: 10px;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.2);
-    color: white;
+    width: 10rem;
   }
-  button:hover {
-    cursor: pointer;
-    border-color: white;
-    border: 5;
-  }
-  section >div> p > a {
-    color: rgb(255, 166, 0);
-    text-shadow: 0 0;
-    text-decoration: underline;
-  }
-  section >div> p {
-    color: white;
-  }
-  footer {
-    position: fixed;
-    bottom: 0;
-    color: white;
-    background-color: rgb(235, 236, 232, 0.1);
-    width: 100%;
-    text-align: center;
-  }
-  a{cursor: pointer;}
-
-  @media (max-width:910px) { 
-    form{
-      width: 85vw;
-    }
-    form input{
-      width: 80vw;
-    }
-    button{
-      width: 10rem;
-    }
-    
 }
-@media (max-width:500px) {
-  .container-fluid{
+@media (max-width: 500px) {
+  .container-fluid {
     flex-direction: column;
   }
-  .container-fluid .collapse{
+  .container-fluid .collapse {
     width: 100vw;
-}
-.navbar-nav{
+  }
+  .navbar-nav {
     justify-content: space-between;
-}
-.logo{
-  background-color: rgba(0, 0, 0, 0.6);
-}
+  }
+  .logo {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
 }
