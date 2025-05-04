@@ -12,8 +12,12 @@
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <div class="logo">
-            <a class="afika" href="index.html">a<span>F<span>|</span>K</span>a</a>
-            <a class="navbar-brand" href="index.html">IT Support and Consultation</a>
+            <a class="afika" href="index.html"
+              >a<span>F<span>|</span>K</span>a</a
+            >
+            <a class="navbar-brand" href="index.html"
+              >IT Support and Consultation</a
+            >
           </div>
 
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -33,36 +37,36 @@
         </div>
       </nav>
       <div class="form-content">
-      <h2>Please fill in the required information.</h2>
-      <form action="signup-credentials">
-        <div>
+        <h2>Please fill in the required information.</h2>
+        <form action="signup-credentials" method="post">
           <div>
-            <div><label for="first-name">First name</label></div>
-            <input type="text" name="first-name" required />
+            <div>
+              <div><label for="first-name">First name</label></div>
+              <input type="text" name="first-name" id="first-name" required />
+            </div>
+            <div>
+              <div><label for="last-name">Last name</label></div>
+              <input type="text" name="last-name" id="last-name" required />
+            </div>
+            <div>
+              <label for="email"> Email Address</label></div>
+            <input type="email" name="email" id="email"/>
+            <div>
+              <div><label for="password">Password</label></div>
+              <input type="password" name="password" id="password" required />
+            </div>
+            <div>
+              <div><label for="confirm-password">Confirm Password</label></div>
+              <input type="password" name="confirm-password" id="confirm-password" required />
+            </div>
           </div>
           <div>
-            <div><label for="last-name">Last name</label></div>
-            <input type="text"name="last-name" required/>
+            <button type="submit">Submit</button>
           </div>
-          <div><label for="email"> Email Address</label></div>
-          <input type="email" name="email"/>
-          <div>
-            <div><label for="password">Password</label></div>
-            <input type="password" name="password" required />
-          </div>
-          <div>
-            <div><label for="confirm-password">Confirm Password</label></div>
-            <input type="password" name="confirm-password" required />
-          </div>
-        </div>
-        <div>
-          <button type="submit">Submit</button>
-        </div>
-      </form>
-      <p>Already have an account? <a href="login.html"> Login</a></p>
-    </div>
-    <footer>© 2025 Afika Shwashwa. All rights reserved</footer>
-
+        </form>
+        <p>Already have an account? <a href="login.html"> Login</a></p>
+      </div>
+      <footer>© 2025 Afika Shwashwa. All rights reserved</footer>
     </section>
   </body>
 </html>
