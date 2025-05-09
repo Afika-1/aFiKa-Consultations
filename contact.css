@@ -1,0 +1,27 @@
+/* 
+@media (min-width:990px) {
+    
+
+.collapse{
+display: flex;
+justify-content: end;
+
+}}
+@media (max-width:990px) {
+    
+
+    .collapse{
+    display: flex;
+    justify-content: end;
+    
+    }} */
+    .collapse{
+        display: flex;
+        justify-content: end;
+        
+        }
+        nav{
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 1rem;
+            color: white;
+        }
