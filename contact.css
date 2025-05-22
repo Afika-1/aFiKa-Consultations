@@ -17,7 +17,7 @@ nav {
   padding: 1rem;
   color: white;
 }
-.logo {
+/* .logo {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,10 +58,180 @@ nav {
     text-decoration: underline;
     color: rgb(255, 166, 0);
     margin-left: 5vw;
-  }
+  } */
+
+  .logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2px;
+  border-right: 0.1px rgb(71, 63, 47) solid;
+  border-left: 0.1px rgb(71, 63, 47) solid;
+  padding: 10px;
+  margin: 5px;
+}
+.afika {
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(255, 166, 0);
+  border-top: 1px red solid;
+}
+.afika span {
+  font-weight: bold;
+  color: rgb(202, 37, 37);
+  text-shadow: 5px 1px 1px rgba(0, 0, 0, 0.9);
+}
+.afika span > span {
+  color: rgb(53, 131, 85);
+}
+.navbar-brand {
+  font-style: italic;
+  font-family: cursive;
+  color: rgb(255, 166, 0);
+  text-shadow: 10px 10px 3px rgba(0, 0, 0, 0.9);
+}
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.navbar-nav a {
+  color: white;
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+}
+
+.navbar-nav a:hover {
+  border-bottom: 3px rgb(53, 131, 85) solid;
+}
+.navbar-nav {
+  display: flex;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  color: white;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+#login {
+  text-decoration: underline;
+  color: rgb(255, 166, 0);
+  margin-left: 5vw;
+}
 h2{
     text-align: center;
     color: white;
     font-size: 40px;
     margin-top: 3%;
+}
+
+
+@media (max-width: 500px) {
+  .container-fluid {
+    flex-direction: column;
+  }
+  .container-fluid .collapse {
+    width: 100vw;
+  }
+  .navbar-nav {
+    justify-content: space-between;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  .texts {
+    gap: 15%;
+  }
+  .logo{
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+}
+
+
+main {
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+    color: white;
+            box-shadow:  2px 2px 3px 4px rgb(53, 131, 85);
+
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info, .contact-form {
+    flex: 1;
+    margin: 10px 0; 
+    padding: 20px;
+}
+
+
+@media (min-width: 600px) {
+    .contact-container {
+        flex-direction: row; 
+    }
+
+    .contact-info {
+        margin-right: 20px;
+    }
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    color: white;
+    box-shadow: 1px 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  cursor: pointer;
+  border-color: white;
+  border: 5;
+
+
+  
+}
+p a{
+  text-decoration: none;
+  color: white;
+}
+.contact-info p{
+  padding: 10px;
+}
+.contact-info h2{
+  padding-bottom: 75px;
 }
